@@ -14,6 +14,7 @@ import AccountCircle from "@material-ui/icons/AccountCircle";
 import MailIcon from "@material-ui/icons/Mail";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import MoreIcon from "@material-ui/icons/MoreVert";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -171,9 +172,11 @@ export default function NavBar() {
         }}
       >
         <Toolbar>
-          <Typography className={classes.title} variant="h6" noWrap>
-            BIG<span style={{ color: "#70d1e0" }}>BREAK</span>
-          </Typography>
+          <Link className="link-test" to="/">
+            <Typography className={classes.title} variant="h6" noWrap>
+              BIG<span style={{ color: "#70d1e0" }}>BREAK</span>
+            </Typography>
+          </Link>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
             <Typography className={classes.menuItems} variant="h6" noWrap>
@@ -182,9 +185,11 @@ export default function NavBar() {
             <Typography className={classes.menuItems} variant="h6" noWrap>
               Services
             </Typography>
-            <Typography className={classes.menuItems} variant="h6" noWrap>
-              Connect
-            </Typography>
+            <Link className="link-test" to="contact">
+              <Typography className={classes.menuItems} variant="h6" noWrap>
+                Connect
+              </Typography>
+            </Link>
             <Typography className={classes.menuItems} variant="h6" noWrap>
               Blog
             </Typography>

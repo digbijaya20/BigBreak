@@ -2,9 +2,10 @@
 import { Box, Container } from "@material-ui/core";
 import "./App.css";
 import NavBar from "./Components/AppBar";
-import PerfectPlace from "./Components/PerfectPlace";
-import HowItActs from "./Components/HowItActs";
 import Footer from "./Components/Footer";
+import { Switch, Route } from "react-router-dom";
+import AllLanding from "./Components/AllLanding";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
@@ -12,11 +13,12 @@ function App() {
       <Container>
         {/* <img src={demo} className="App-logo" alt="logo" /> */}
         <NavBar />
-        <PerfectPlace />
       </Container>
-      <Box style={{ backgroundColor: "#fff" }} mt={4} pb={4}>
-        <HowItActs />
-      </Box>
+      <Switch>
+        {/* <Route path="/signup" component={SignUp} /> */}
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/" component={AllLanding} />
+      </Switch>
       <Box pt={4} style={{ backgroundColor: "#06063F" }}>
         <Footer />
       </Box>
