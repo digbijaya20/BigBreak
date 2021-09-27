@@ -10,9 +10,16 @@ const useStyles = makeStyles((theme) => ({
         width:'90%',
         
     },
+    mainHeading:{
+        fontWeight: "bold",
+    },
+    subHeading:{
+        fontWeight: "bold",
+    },
     subText:{
         color:'rgba(0, 0, 0, 0.54)',
         marginTop:"7px",
+        fontWeight: "bold",
     },
     cardStyle: {
         maxWidth: 350,
@@ -33,10 +40,10 @@ const PerfectPlace = () =>{
         <Box mt={4}>
             <Grid container>
                 <Grid item sm={12} xs={12} md={6} lg={6} >
-                    <Typography className={classes.menuItems} variant="h2" >
+                    <Typography className={classes.mainHeading} variant="h2" >
                         Perfect place for your business promotion
                     </Typography>
-                    <Typography className={classes.subText} variant="h6" color="default" >
+                    <Typography className={classes.subText} variant="h5" color="default" >
                         Businesses generally promote their brand, products,<br/> and services 
                         by identifying audiance
                     </Typography>

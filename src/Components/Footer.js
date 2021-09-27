@@ -217,9 +217,9 @@ const Footer = () => {
         </Grid>
         <Grid item lg={4} md={12} sm={12} xs={12}>
           <Box textAlign="center">
-            <Typography variant="h3">
-              <span style={{ color: "#ffffff" }}>TheBIG</span>
-              <span style={{ color: "#70d1e0" }}>BREAK</span>
+            <Typography variant="h2">
+              <span style={{ color: "#ffffff" }}>Big</span>
+              <span style={{ color: "#70d1e0" }}>Break</span>
             </Typography>
             <Typography className={classes.tagLine}>
               This is a big one and i consider it one of the most important

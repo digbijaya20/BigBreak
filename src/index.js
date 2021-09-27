@@ -5,13 +5,16 @@ import App from './App';
 import {ThemeProvider} from '@material-ui/core/styles';
 import reportWebVitals from './reportWebVitals';
 import theme from './theme';
+import {BrowserRouter} from 'react-router-dom';
 ReactDOM.render(
   <React.StrictMode>
+    <BrowserRouter>
     <ThemeProvider theme={theme}>
     <App />
     </ThemeProvider>
+    </BrowserRouter>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function

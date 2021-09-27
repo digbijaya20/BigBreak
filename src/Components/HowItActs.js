@@ -50,7 +50,7 @@ const useStyles = makeStyles((theme) => ({
   },
   headingSubText: {
     color: "rgba(0, 0, 0, 0.54)",
-    fontSize: "15px",
+    // fontSize: "15px",
     fontWeight: "bold",
     // marginTop:"7px",
   },
@@ -77,17 +77,16 @@ const HowItActs = () => {
     <Container>
       <Box textAlign="center">
         <Typography
-          variant="h3"
-          component="h5"
+          variant="h2"
           className={classes.headingStyle}
         >
           How it works
         </Typography>
         <Box className={classes.headingBorder}></Box>
         <Typography
-          variant="h6"
+          variant="h5"
           className={classes.headingSubText}
-          component="h6"
+          component="h5"
         >
           Businesses generally promote their brand, products, and services by
           identifying audiance
@@ -127,7 +126,7 @@ const HowItActs = () => {
                 variant="h5"
                 component="h5"
               >
-                Social Media Management
+                Social Media Mgnt
               </Typography>
               <Typography variant="h6" className={classes.cardText}>
                 Digital media trends across all social media platforms, leave it
