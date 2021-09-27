@@ -1,6 +1,6 @@
 import { Box, Button, Card, CardContent, Grid, Typography } from '@material-ui/core';
 import perfectPlace from '../Assets/SvgImages/perfectPlace-2.svg';
-import { alpha, makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 // import DeleteIcon from '@material-ui/icons/Delete';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 
