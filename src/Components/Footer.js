@@ -226,7 +226,10 @@ const Footer = () => {
               thing in the business
             </Typography>
             <Typography className={classes.cntact}>
-              contact@thebigbreak.in
+              digbijaya.biswal20@gmail.com
+            </Typography>
+            <Typography className={classes.cntact}>
+             Call: 9668685560
             </Typography>
             <Box className={classes.footerIcon} mt={1} mb={1}>
               <FacebookIcon />
