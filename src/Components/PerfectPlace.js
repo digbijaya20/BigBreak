@@ -41,7 +41,7 @@ const PerfectPlace = () =>{
             <Grid container>
                 <Grid item sm={12} xs={12} md={6} lg={6} >
                     <Typography className={classes.mainHeading} variant="h2" >
-                        Perfect place for your business promotion
+                        Behura gote randi chhua
                     </Typography>
                     <Typography className={classes.subText} variant="h5" color="default" >
                         Businesses generally promote their brand, products,<br/> and services 
